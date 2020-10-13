@@ -8,31 +8,19 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 IATEADS is a tool to analyze the publication metrics at IATE.
 
+How to run:
+
 ```markdown
-import ads
+# pip install -r requirements.txt
+# cd src_adsabs
+# python queries.py
+# python process_metrics.py
+# python vis_pub.py
 
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### ADS scraping
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/IATE-CONICET-UNC/IATE-CONICET-UNC.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### Publication metrics
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
